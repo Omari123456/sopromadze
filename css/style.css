@@ -1,0 +1,265 @@
+/* .index_body {
+    height: 1800px;
+} */
+/* .header { position fix იწვევს justifi-content:flex-end-ის გაუქმებას
+    position: fixed;
+} */ 
+
+.container {
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.Index_header_navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Index_header_ul {
+    display: flex;
+}
+.Index_header_li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Index_header_div_wrapper_image {
+    display: flex;
+}
+
+.Index_header_div_wrapper {
+    display: flex;
+}
+.Index_header_div {
+    margin-left: 15px;
+}
+.logo_image {
+    margin-left: 20px;
+    background-color: bisque;
+}
+.header_decoration {
+    text-decoration: underline;
+    text-decoration-color: black;
+    color: red;
+}
+.language {
+    display: flex;
+    justify-content: flex-end;
+}
+.language_style {
+    margin-right: 15px;
+}
+.language_decoradion {
+    text-decoration: underline;
+    text-decoration-color: green;
+    color: blueviolet;
+}
+.burger_icon {
+    display: none;
+}
+
+.section1 {
+    position: relative;
+}
+
+.section2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.vineyeard_image {
+    width: 100%;
+}
+
+.Product_section {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h2 {
+    font-size: 30px;
+}
+
+.p_catalogue {
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.Prodact_main_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.container .Product_main_Catalogue .Prodact_main_wrapper {
+    justify-content: space-around;
+}
+
+.Product_wrapper {
+    text-align: center;
+}
+
+.Product_image {
+    height: 250px;
+}
+.Product_span {
+    /* margin: 0 auto; */
+    color: blue;
+}
+
+/* Footer */
+
+footer {
+    background-color: #f1f1f1;
+}
+
+.footer_main_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.footer_notifications {
+    font-size: 22px;
+    text-decoration: underline;
+    padding-bottom: 10px
+}
+
+.footer_SignUP {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.Email_input {
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+.Footer_navigation {
+    display: flex;
+}
+
+.footer_navigation_box {
+    margin-right: 15px;
+}
+
+.margin-bottom:nth-child(1) {
+    margin-bottom: 15px;
+}
+
+.direction_icon {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.youtube_icon {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.facebook_icon {
+    height: 20px;
+    margin-right: 10px;
+}
+.instagram_icon {
+    height: 20px;
+    margin-right: 10px;
+}
+.Footer_icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.twitter_icon {
+    height: 20px;
+}
+
+
+@media (max-width: 1200px) {
+    .container {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 10px 0px;
+    }
+}
+@media (max-width: 1024px) {
+    .container {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+    .Index_header_div_wrapper {
+        display: none;
+    }
+    .Index_header_navigation {
+        justify-content: center;
+    }
+    .language {
+        display: none;
+    }
+    .burger_icon {
+        display: flex;
+        height: 40px;
+        justify-content: flex-end;
+    }
+    .Index_header_ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    .Prodact_main_wrapper {
+        flex-wrap: wrap;
+    }
+    .h2 {
+        font-size: 28px;
+    }
+    .Product_image {
+        height: 250px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+    .Index_header_div_wrapper {
+        display: none;
+    }
+    .Index_header_navigation {
+        justify-content: center;
+    }
+    .language {
+        display: none;
+    }
+    .burger_icon {
+        display: flex;
+        height: 40px;
+        justify-content: flex-start;
+    }
+}
