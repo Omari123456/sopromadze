@@ -140,6 +140,10 @@ footer {
     padding-bottom: 10px
 }
 
+.footer_notifications1 {
+    font-size: 16px;
+    }
+
 .footer_SignUP {
     display: flex;
     align-items: center;
@@ -192,7 +196,6 @@ footer {
     height: 20px;
 }
 
-
 @media (max-width: 1200px) {
     .container {
         width: 95%;
@@ -203,6 +206,7 @@ footer {
         padding: 10px 0px;
     }
 }
+
 @media (max-width: 1024px) {
     .container {
         width: 95%;
@@ -224,20 +228,34 @@ footer {
     .burger_icon {
         display: flex;
         height: 40px;
-        justify-content: flex-end;
+        /* justify-content: flex-end; */
     }
     .Index_header_ul {
+        width: 100%;
         display: flex;
-        justify-content: space-between;
     }
+
+    .Index_header_li {
+        width: 100%;
+        justify-content: space-around;
+    }
+
     .Prodact_main_wrapper {
         flex-wrap: wrap;
     }
     .h2 {
-        font-size: 28px;
+        font-size: 25px;
     }
     .Product_image {
-        height: 250px;
+        height: 200px;
+    }
+    .footer_notifications {
+        font-size: 20px;
+        text-decoration: underline;
+        padding-bottom: 10px;
+    }
+    .footer_notifications1 {
+        font-size: 15px;
     }
 }
 @media (max-width: 768px) {
