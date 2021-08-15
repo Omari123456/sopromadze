@@ -184,7 +184,7 @@
 .contact_information_wrapper {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .contact_information {
@@ -192,10 +192,18 @@
 }
 
 .Contact_SignUp_header {
+    font-family: cursive;
     font-size: 18px;
-    color: rgb(0, 119, 255);
+    font-weight:lighter;
+    color: green;
     padding-bottom: 15px;
     text-align: center;
+}
+
+.border_between_contact_section {
+    height: 369px;
+    width: 2px;
+    background-color: black;
 }
 
 .Italic {
