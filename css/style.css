@@ -76,12 +76,190 @@
     width: 100%;
 }
 
+/* Product.html start */
+
+.Product_catalogue_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.Product_catalogue_style {
+    font-size: 22px;
+    font-style:italic;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: black;
+}
+
 .Product_section {
-    width: 90%;
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+.Products_Product_section {
+    width: 95%;
+    
+}
+.Wine_types_wrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.Wine_box_wrapper {
+    display: flex;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 5px;
+}
+.Wine_box {
+    padding: 0 20px;
+}
+
+/* Product.html end */
+/* WhiteWine.html start*/
+
+.White_Wine_Wrapper1 {
+    display: flex;
+}
+
+.White_Wine_Product_image {
+    height: 400px;
+}
+
+.White_Wines {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgba(21, 62, 175, 0.438)
+}
+
+/* WhiteWine.html end*/
+/* Prima.html start*/
+/* .Prima_Prodact_main_wrapper {
+    display: flex;
+} */
+
+.Prima_name {
+    width: 100%;
+}
+
+.Prima_name_title {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.Prima_Product_image {
+    height: 500px;
+}
+
+.Prima_History_and_ManufacturingTechnology {
+    text-align: center;
+    font-size: 22px;
+    padding-bottom:15px;
+}
+
+.Prima_Product_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Prima_description {
+    position: relative;
+    width: 40%;
+    overflow: hidden;
+    height: auto;
+}
+
+/* Prima.html end*/
+
+/* Contact.html start */
+
+.contact_information_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact_information {
+    width: 45%;
+}
+
+.Contact_SignUp_header {
+    font-size: 18px;
+    color: rgb(0, 119, 255);
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.Italic {
+    font-style: italic;
+}
+
+.contact_us {
+    font-family:fantasy;
+    font-size: 25px;
+    color:green;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.contact_span_style {
+    color:blue;
+}
+
+.li_display_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Contact_SignUp {
+    width: 45%;
+}
+
+.Contact_FirsName_LastName {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.PhoneNumber_or_Email {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.First_Name_input {
+    width: 100%;
+}
+
+.Last_Name_input {
+    width: 100%;
+}
+
+.Number_or_Email_input {
+    width: 100%;
+}
+
+.Message_box {
+    resize: none;
+}
+
+.send_button {
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: black;
+    background-color: #fff;
+    font-size: 15px;
+}
+
+/* Contact.html end */
 
 .h2 {
     font-size: 30px;
