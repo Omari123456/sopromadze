@@ -268,6 +268,15 @@
 }
 
 /* Contact.html end */
+/* About.html start */
+
+.Company_History_title {
+    text-decoration: underline;
+    text-decoration-style:inherit;
+    font-size: 40px;
+    font-style: oblique;
+    text-align: center;
+}
 
 .h2 {
     font-size: 30px;
